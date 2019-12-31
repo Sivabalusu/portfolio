@@ -1,0 +1,124 @@
+body
+{
+    background: #cccccc;
+    font-family: Helvetica , Arial , sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+header
+{
+    height: 80px;
+    background-color: #171717;
+    color: white;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background:cover;
+}
+header h1
+{
+    padding-top:20px;
+    padding-left: 200px;
+    margin:0px;
+}
+h1 sub
+{
+    color: #ef291f;
+    font-size:18px;
+}
+header nav
+{
+    height: 30px;
+    background-color: dimgray;
+    padding-left: 10px;
+}
+nav a
+{
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    background-color: #6a53ed;
+    
+}
+nav ul
+{
+   list-style-type: none
+}
+nav li
+{
+    display: inline;
+}
+main
+{
+    margin-top:25px;
+    
+}
+.bio
+{
+    margin-right:10px;
+    margin-bottom: 8px;
+    float:left;
+    width: 40%;
+    height: 500px;
+    background-color: #ceb8b8;
+    line-height: 2em;
+}
+.edu
+{
+    margin-right:10px;
+    margin-bottom: 8px;
+    float:left;
+    width: 40%;
+    height: 500px;
+    background-color: #ceb8b8;
+}
+.sidebar
+{
+    float:left;
+    margin-bottom: 8px;
+    width: 18%;
+    height:500px;
+    background-color: #ceb8b8;
+}
+.sidebar h1
+{
+    text-align: center;
+}
+
+.bio:hover
+{
+    background-color: #6a53ed;
+    color: snow;
+    font-size: 17px;
+}
+
+.edu:hover{
+    background-color: #6a53ed;
+    color: snow;
+    font-size: 18px;
+}
+.sidebar:hover
+{
+    background-color: #6a53ed;
+    color:snow;
+    font-size: 18px;
+}
+footer
+{
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    margin:10px 0px;
+}
+.bio h1
+{
+    text-align: center;
+}
+.edu h1
+{
+    text-align: center;
+}
